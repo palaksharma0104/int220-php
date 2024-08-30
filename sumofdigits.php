@@ -9,4 +9,4 @@ while ($number > 0) {
     $number = (int)($number / 10);
 }
 
-echo "The sum of digits in $number is $sum";
+echo "The sum of digits is $sum";
