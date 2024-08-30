@@ -5,6 +5,10 @@ function factorial($n) {
         return "Factorial is not defined for negative numbers.";
     }
 
+    if ($n == 0){
+        return "Factorial is 1 for 0 ";
+    }
+
     $result = 1;
     $i = 1;
 
@@ -16,7 +20,7 @@ function factorial($n) {
     return $result;
 }
 
-$number = 5;
+$number = 7;
 $factorial = factorial($number);
 echo "The factorial of $number is $factorial";
 ?>
