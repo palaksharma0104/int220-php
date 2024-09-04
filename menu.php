@@ -15,7 +15,6 @@ switch ($mealChoice) {
         echo "3. Cereal\n";
         echo "4. Juices and Smoothies\n";
         
-        // Take user input for the breakfast item choice
         $breakfastChoice = intval(readline("Enter your choice (1-4): "));
         
         switch ($breakfastChoice) {
@@ -63,14 +62,13 @@ switch ($mealChoice) {
         }
         break;
     
-    case 3: // Snacks
+    case 3:
         echo "Snacks Options:\n";
         echo "1. French Fries\n";
         echo "2. Nachos\n";
         echo "3. Fruit Salad\n";
         echo "4. Sandwich\n";
         
-        // Take user input for the snacks item choice
         $snacksChoice = intval(readline("Enter your choice (1-4): "));
         
         switch ($snacksChoice) {
@@ -91,14 +89,13 @@ switch ($mealChoice) {
         }
         break;
     
-    case 4: // Dinner
+    case 4:
         echo "Dinner Options:\n";
         echo "1. Steak\n";
         echo "2. Grilled Salmon\n";
         echo "3. Stir Fry Vegetables\n";
         echo "4. Pizza\n";
         
-        // Take user input for the dinner item choice
         $dinnerChoice = intval(readline("Enter your choice (1-4): "));
         
         switch ($dinnerChoice) {

@@ -1,11 +1,10 @@
-<?php
-// Define variables for customer status and purchase amount
-$is_regular_customer = true; // Assume the customer is a regular customer (set to false if not)
-$purchase_amount = 300; // Example purchase amount
+<!-- //regular customer and discount script -->
 
-// Check if the customer is a regular customer and if the purchase amount is more than 500
+<?php
+$is_regular_customer = true;
+$purchase_amount = 300;
+
 if ($is_regular_customer && $purchase_amount > 500) {
-    // Calculate the discount
     $discount = $purchase_amount * 0.20;
     $final_amount = $purchase_amount - $discount;
 
