@@ -1,6 +1,5 @@
 <?php
 
-// Sample student data (replace with your actual data)
 $students = [
     'student1' => [
         'name' => 'Alice',
@@ -19,14 +18,13 @@ $students = [
     ],
 ];
 
-// Create the table
+
 echo '<table>';
 echo '<thead>';
 echo '<tr><th>Name</th><th>Age</th><th>Grade</th></tr>';
 echo '</thead>';
 echo '<tbody>';
 
-// Iterate over each student using a foreach loop
 foreach ($students as $student) {
     echo '<tr>';
     echo '<td>' . $student['name'] . '</td>';
