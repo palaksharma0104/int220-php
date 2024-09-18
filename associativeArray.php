@@ -28,7 +28,7 @@ echo '<tbody>';
 foreach ($students as $student) {
     echo '<tr>';
     echo '<td>' . $student['name'] . '</td>';
-    echo '<td>' . $student['age'] . '</td>';
+    echo '<td>' . $student['age'] . '</td>';   
     echo '<td>' . $student['grade'] . '</td>';
     echo '</tr>';
 }
