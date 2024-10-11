@@ -1,14 +1,15 @@
 <?php
-// Get the form data
+
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
+$age = $_POST['age'];
 
-// Validate the data (optional)
-if (empty($name) || empty($email) || empty($message)) {
+
+if (empty($name) || empty($email) || empty($message) || empty($age)) {
     echo "Please fill out all fields.";
 } else {
-    // Process the form data (e.g., send an email)
+ 
     $to = "your_email@example.com";
     $subject = "Contact Form Submission";
     $body = "Name: " . $name . "\nEmail: " . $email . "\nMessage: " . $message;
