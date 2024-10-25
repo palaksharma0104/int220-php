@@ -1,0 +1,2 @@
+Error [2]: Undefined variable $undefined_variable in C:\xampp\htdocs\cse-220-php\customerror.php on line 22
+Exception: This is a custom exception.
