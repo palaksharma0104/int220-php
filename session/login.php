@@ -17,4 +17,4 @@ if (isset($users[$username]) && $users[$username] === $password) {
 } else {
     echo "Invalid username or password.";
 }
-?>
+?>0

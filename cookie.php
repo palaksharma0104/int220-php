@@ -18,5 +18,5 @@ if (isset($_COOKIE[$cookieName])) {
 } else {
     // Cookie is not accepted
     echo "Cookie '$cookieName' is not accepted.";
-}
+}+
 ?>

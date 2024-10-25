@@ -31,12 +31,12 @@
 
 <?php
 if (isset($_POST['submit'])) {
-    // Get the form data
+    
     $num1 = $_POST['num1'];
     $num2 = $_POST['num2'];
     $operation = $_POST['operation'];
 
-    // Perform the selected operation
+    
     switch ($operation) {
         case 'add':
             $result = $num1 + $num2;
@@ -64,7 +64,7 @@ if (isset($_POST['submit'])) {
             break;
     }
 
-    // Display the result
+    
     echo "<h3>Result of $operation_name: $result</h3>";
 }
 ?>
