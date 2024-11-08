@@ -12,14 +12,22 @@ class Student {
         $this->showStudent();
     }
 
-    
+    // Method to display student details
     public function showStudent() {
+        echo "<h2>Student Details</h2>";
         echo "Student Name: " . $this->name . "<br>";
         echo "Student Age: " . $this->age . "<br>";
         echo "Course: " . $this->course . "<br>";
     }
 }
 
+// Retrieve form data and create a Student instance
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST['name'];
+    $age = $_POST['age'];
+    $course = $_POST['course'];
 
-$student = new Student("Alice", 20, "Computer Science");
+    // Create a new Student object
+    $student = new Student($name, $age, $course);
+}
 ?>
