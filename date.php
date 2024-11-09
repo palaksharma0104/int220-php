@@ -1,4 +1,4 @@
-<?php 
+<?php
 function validateDate($day, $month, $year){
     if(checkdate($day, $month, $year)){
         echo "The date $year-$month-$day is valid";
